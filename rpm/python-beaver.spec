@@ -10,6 +10,10 @@ Source:         %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python-setuptools
+Requires: python-argparse
+Requires: python-glob2
+Requires: python-daemon
+Requires: python-redis
 
 %description
 The Python beaver package.

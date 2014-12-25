@@ -56,7 +56,8 @@ setup(
         'beaver.dispatcher',
         'beaver.tests',
         'beaver.transports',
-        'beaver.worker'
+        'beaver.worker',
+        'beaver.conf_d'
     ],
     scripts=['bin/beaver'],
     url='http://github.com/josegonzalez/beaver',
